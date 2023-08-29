@@ -47,6 +47,16 @@ return {
 			desc = 'Explorer NeoTree Toggle',
 		},
 		{
+			'<Leader>e',
+			'<cmd>Neotree filesystem left toggle dir=./<CR>',
+			desc = 'Explorer NeoTree Toggle',
+		},
+		{
+			'<Leader>E',
+			'<cmd>Neotree filesystem left reveal dir=./<CR>',
+			desc = 'Explorer NeoTree Reveal',
+		},
+		{
 			'<LocalLeader>a',
 			'<cmd>Neotree filesystem left reveal dir=./<CR>',
 			desc = 'Explorer NeoTree Reveal',

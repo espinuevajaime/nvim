@@ -1,7 +1,15 @@
 -- Plugins: Colorschemes
 
 return {
-
+	{
+		'xiyaowong/transparent.nvim',
+		lazy = false,
+		opts = {
+			exclude_groups = {
+				"NormalFloat", -- plugins which have float panel such as Lazy, Mason, LspInfo
+			},
+		}
+	},
 	{
 		'rafi/theme-loader.nvim',
 		lazy = false,

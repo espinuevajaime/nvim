@@ -157,7 +157,8 @@ return {
 			-- General pickers
 			{ '<localleader>r', '<cmd>Telescope resume initial_mode=normal<CR>', desc = 'Resume last' },
 			{ '<localleader>R', '<cmd>Telescope pickers<CR>', desc = 'Pickers' },
-			{ '<localleader>f', '<cmd>Telescope find_files<CR>', desc = 'Find files' },
+			{ '<localleader>f', '<cmd>Telescope git_files<CR>', desc = 'Find files' },
+			{ '<Leader>f', '<cmd>Telescope find_files<CR>', desc = 'Find files' },
 			{ '<localleader>g', '<cmd>Telescope live_grep<CR>', desc = 'Grep' },
 			{ '<localleader>b', '<cmd>Telescope buffers show_all_buffers=true<CR>', desc = 'Buffers' },
 			{ '<localleader>h', '<cmd>Telescope highlights<CR>', desc = 'Highlights' },
